@@ -1,0 +1,121 @@
+
+body {
+    font: 16px/1.2 Source Sans Pro, sans-serif;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    background: #fff4f0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.menu ul{
+    height: 40px;
+    margin: 0;
+    background-color:white;
+    text-align: center;
+    padding: 10px;   
+    list-style-type: none;
+    font-size: 20px
+}    
+
+li img{
+    width: 20px;   
+} 
+
+li img.firstIcon {
+    position: relative;
+}
+
+li img.secondIcon{
+   position: absolute;
+   
+}
+
+.secondIcon{
+    visibility: hidden;
+   
+}
+ 
+.iconImage:hover .firstIcon{
+   visibility: hidden;
+   
+}
+
+.iconImage:hover .secondIcon{
+    visibility: visible ;
+    
+}
+
+.home a, #iconMenu a{
+    text-decoration: none;
+}
+.menu .icon{
+    display: none;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+
+a:hover{
+    color:#f77b07;
+}
+
+@media screen and (max-width: 1500px){
+.menu{
+    font-size: 14px;
+}
+li{
+    margin: 10px;
+}
+
+}
+@media screen and (max-width: 1085px){
+    li{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 940px){
+   
+ .navMenu a{
+     display: none;
+  }
+
+  .menu a.icon{
+    display: block;
+   float: left;
+   color: #413f3e;
+   font-size: 200%;
+ }
+
+ ul{
+     width: 100%;
+    }
+
+ 
+ .menu .responsive{
+     position: relative;
+     height: 400px;
+ }
+ .menu .responsive a.icon{
+    position: absolute;
+    
+}
+.menu .responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+}
+.home a{
+  
+   padding-top: 80px;
+}
+
+}
+
