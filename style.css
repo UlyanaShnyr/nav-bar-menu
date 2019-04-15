@@ -90,6 +90,7 @@ li{
   .menu a.icon{
     display: block;
    float: left;
+   /* TODO don't use float we have flex for this */
    color: #413f3e;
    font-size: 200%;
  }
@@ -109,6 +110,7 @@ li{
 }
 .menu .responsive a{
     float: none;
+    /* TODO the same */
     display: block;
     text-align: left;
 }
@@ -118,4 +120,4 @@ li{
 }
 
 }
-
+ /* Plese format you code (add space before open curly brackets and after, remove spaces inside block) */
